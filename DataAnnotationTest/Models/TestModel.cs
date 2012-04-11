@@ -8,7 +8,7 @@ namespace DataAnnotationTest.Models
 {
     public class TestModel
     {
-        [Microdata(Data="data-test=test")]
+        [Microdata(Data="test=test, mvc=awesomeness!")]
         public string Test { get; set; }
     }
 }
